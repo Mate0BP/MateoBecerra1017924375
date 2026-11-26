@@ -1,0 +1,17 @@
+{
+  "name": "mateobecerra1017924375",
+  "version": "1.0.0",
+  "description": "Taller evaluativo No. 5 - Aplicaciones y servicios web ITM (CI/CD con GitHub Actions)",
+  "main": "src/calculator.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "ci-cd",
+    "github-actions",
+    "itm"
+  ],
+  "author": "Mateo Becerra Palacios",
+  "license": "MIT"
+}
