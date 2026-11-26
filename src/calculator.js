@@ -14,3 +14,11 @@ export function multiplicar(a, b) {
   return a * b;
 }
 
+export function dividir(a, b) {
+  if (b === 0) {
+    throw new Error('No es posible dividir por cero');
+  }
+  return a / b;
+}
+
+
