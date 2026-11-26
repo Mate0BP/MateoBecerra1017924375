@@ -21,4 +21,9 @@ export function dividir(a, b) {
   return a / b;
 }
 
+export function potencia(base, exponente) {
+  return Math.pow(base, exponente);
+}
+
+
 

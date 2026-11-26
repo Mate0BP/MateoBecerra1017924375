@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { sumar, restar, multiplicar, dividir } from '../src/calculator.js';
+import { sumar, restar, multiplicar, dividir, potencia } from '../src/calculator.js';
 
 test('Calculadora - Suma de dos números positivos', () => {
   assert.equal(sumar(5, 3), 8);
@@ -32,5 +32,14 @@ test('Calculadora - División por cero lanza error', () => {
     { message: 'No es posible dividir por cero' }
   );
 });
+
+test('Calculadora - Potencia de base y exponente', () => {
+  assert.equal(potencia(2, 3), 8);
+});
+
+test('Calculadora - Potencia con exponente cero', () => {
+  assert.equal(potencia(5, 0), 1);
+});
+
 
 
